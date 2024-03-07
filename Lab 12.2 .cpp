@@ -10,7 +10,7 @@ int main() {
     int *x = KnapsackGreedy(w, v, n, wx);
     for (int i = 0; i < n; i++)
         printf("%d", x[i]);
-    free(x); // Free allocated memory
+    free(x);
     return 0;
 }
 
